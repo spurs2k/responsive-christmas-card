@@ -1,5 +1,5 @@
 * {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   
   body {
@@ -22,11 +22,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1em;
+    padding: 2em;
     overflow: hidden;
   }
   
-  @media only screen and (min-width: 1150px) {
+  @media only screen and (min-width: 1000) {
     .card {
       flex-direction: row-reverse;
     }
@@ -37,7 +37,7 @@
     }
   }
   
-  @media only screen and (max-height: 640px) {
+  @media only screen and (max-height: 350px) {
     .card {
       flex-direction: row-reverse;
     }
@@ -48,8 +48,9 @@
     }
   }
   
-  img.Christmas {
+  img {
     max-height: 40vh;
+    
   }
   
   .text {
@@ -63,7 +64,7 @@
   }
   
   .space {
-    
+    height: 100px;
   }
 
   h1 {
