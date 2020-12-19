@@ -54,7 +54,7 @@
   }
   
   .text {
-    padding: .75em;
+    padding: .5em;
   }
   
   .muted {
@@ -63,11 +63,7 @@
     font-size: 1.5em;
   }
   
-  .space {
-    height: 100px;
-  }
-
-  h1 {
+    h1 {
       color: red;
       font-weight: bolder;
   }
