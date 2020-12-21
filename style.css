@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2em;
+    padding: .8em;
     overflow: hidden;
   }
   
@@ -30,31 +30,31 @@
     .card {
       flex-direction: row-reverse;
     }
-    .card img.Christmas {
+    .card img.christmas {
       width: 100%;
       max-width: 50vw;
       max-height: unset;
     }
   }
   
-  @media only screen and (max-height: 350px) {
+  @media only screen and (max-height: 640px) {
     .card {
       flex-direction: row-reverse;
     }
-    .card img.Christmas {
+    .card img.christmas {
       width: 100%;
       max-width: 50vw;
       max-height: unset;
     }
   }
   
-  img {
+  img.christmas {
     max-height: 40vh;
     
   }
   
   .text {
-    padding: .5em;
+    padding: 1em;
   }
   
   .muted {
